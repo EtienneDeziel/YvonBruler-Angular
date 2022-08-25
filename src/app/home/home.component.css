@@ -1,0 +1,31 @@
+/* ......Pour la section horaire......... */
+
+.colone{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.truc{
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.backgroundImg{
+
+  width: 100%;
+}
+
+/* ........Section du Carroussel............ */
+
+.carousel-taille{
+  margin: 0;
+  height: 300px;
+}
+
+.img-carousel{
+  height: 300px;
+}

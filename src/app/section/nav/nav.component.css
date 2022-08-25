@@ -1,21 +1,25 @@
 
-
 li{
   display: inline;
 }
 
 ul{
   list-style-type: none;
-  margin: 20px;
+
 }
 
 a{
   text-decoration: none;
-  color: white;
-  margin: 20px;;
+  /* color: white; */
+  padding: 1rem;
 }
 
 li > a:hover{
   color: red;
   background-color: yellow;
+}
+
+#logo{
+  margin: 0px;
+  width: 400px;
 }

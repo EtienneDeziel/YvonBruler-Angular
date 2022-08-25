@@ -2,36 +2,17 @@
   <app-header-top></app-header-top>
 </section>
 
-<header>
+<header class="sticky-top">
   <app-nav></app-nav>
-  <!-- <div app-nav></div> -->
 </header>
 
-<div style="background-color:yellow; height: 200px;">
-  <p>Grosse crisse de photo ici</p>
-</div>
+<hr>
+
+<router-outlet></router-outlet>
+
+<hr>
 
 
-
-
-<a href="">Test de selecteur css</a>
-
-<div class="container">
-  <p>carrouseele de poudre</p>
-</div>
-
-<section>
-  <div>
-    <h3>Heures d'ouverture</h3>
-    <p>lundi: fuck off</p>
-    <p>lundi: fuck off</p>
-    <p>lundi: fuck off</p>
-    <p>lundi: fuck off</p>
-  </div>
-</section>
-
-<footer style="border:solid 1px; height: 100px;">
-    <div>
-      <p> © 2022 Yvon Brûler Bistro - Tous droits réservés. Conception MOE.com icones...</p>
-    </div>
+<footer>
+  <app-footer></app-footer>
 </footer>

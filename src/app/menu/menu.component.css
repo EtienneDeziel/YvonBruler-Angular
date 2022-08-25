@@ -1,0 +1,32 @@
+.photoHeader {
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 100%;
+}
+.captionColor{
+  background-color:rgba(192,192,192,0.3);
+}
+
+/* ...Menu... */
+
+.backgroundMenu{
+  background-color: black;
+  width: 100%;
+  margin:0px;
+}
+
+.pageMenu{
+  margin: 50px;
+}
+
+.elementMenu{
+
+}
+.listeMenu{
+  border: 1px solid black;
+}

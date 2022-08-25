@@ -1,7 +1,12 @@
-
 header{
-  background-color: red;
-  text-align: center;
-  top: 1px;
-	position: sticky;
+  border: 1px solid black;
+  background: linear-gradient(to right, red, yellow) ;
+
+}
+
+/* ......Pour le footer....... */
+
+footer{
+  height: 4rem;
+  border: 1px solid black;
 }
