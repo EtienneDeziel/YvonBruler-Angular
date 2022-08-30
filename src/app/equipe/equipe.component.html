@@ -1,4 +1,16 @@
 <h2>Voici les membres de l'équipe du Bistro</h2>
 
-<a class="btn btn-warning" routerLink="">button de retour</a>
+<div class="container">
+  <div class="row justify-content-md-center justify-content-sm-center">
+    <div *ngFor="let membre of membre" class="card col-md-auto col-sm-auto mx-2 my-2" style="width: 18rem;">
+      <img class="card-img-top" src='{{ membre.picture }}' alt="CardTeams">
+      <div class="card-body">
+        <h3 class="card-title">{{ membre.name }}</h3>
+        <p class="card-text">{{ membre.description }}</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 

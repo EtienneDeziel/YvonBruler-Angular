@@ -1,0 +1,28 @@
+<!-- <h2>{{reservation.name | uppercase}} Details</h2>
+<div><span>id: </span>{{reservation.id}}</div>
+<div><span>name: </span>{{reservation.name}}</div>
+<div><span>date: </span>{{reservation.date}}</div>
+<div><span>Nombre de personnes: </span>{{reservation.NbPersonne}}</div>
+
+<hr>
+
+<div>
+  <label for="name">Reservation name: </label>
+  <input id="name" [(ngModel)]="reservation.name" placeholder="name">
+</div> -->
+
+
+
+<h2>Liste des réservations</h2>
+<ul>
+  <li *ngFor="let reservation of reservations">
+    <button  type="button" (click)="onSelect(reservation)">
+      <div>{{reservation.id}}</div>
+      <div>{{reservation.name}}</div>
+      <div>{{reservation.date}}</div>
+      <div>{{reservation.NbPersonne}}</div>
+    </button>
+  </li>
+</ul>
+
+<app-reservation-detail [reservation]="selectedReservation"></app-reservation-detail>
